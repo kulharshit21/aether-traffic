@@ -1,0 +1,27 @@
+{
+  "name": "aether-traffic",
+  "version": "1.0.0",
+  "description": "AetherTraffic: Physics-Informed AI for Proactive Parking Enforcement & Congestion Recovery",
+  "scripts": {
+    "test": "echo \"No tests available\" && exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kulharshit21/aether-traffic.git"
+  },
+  "keywords": [
+    "traffic",
+    "parking",
+    "ai",
+    "machine-learning"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kulharshit21/aether-traffic/issues"
+  },
+  "homepage": "https://github.com/kulharshit21/aether-traffic#readme",
+  "dependencies": {
+    "@vercel/speed-insights": "^2.0.0"
+  }
+}
