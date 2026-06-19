@@ -1,0 +1,9 @@
+{
+  "buildCommand": null,
+  "outputDirectory": "prototype",
+  "framework": null,
+  "rewrites": [
+    { "source": "/", "destination": "/police_command_center.html" },
+    { "source": "/heatmap", "destination": "/folium_heatmap.html" }
+  ]
+}
