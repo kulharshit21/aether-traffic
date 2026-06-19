@@ -1,0 +1,11 @@
+# Exclude everything except what Vercel needs
+data/
+assets/
+code/
+documentation/
+.git/
+*.csv
+*.ipynb
+*.pptx
+*.pyc
+__pycache__/
