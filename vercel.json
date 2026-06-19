@@ -1,4 +1,5 @@
 {
+  "name": "aether-traffic",
   "buildCommand": null,
   "outputDirectory": "prototype",
   "framework": null,
