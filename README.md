@@ -2,6 +2,21 @@
 
 **Flipkart Gridlock 2.0 · Problem Statement 1 · Technical Research Submission**
 
+<div align="center">
+
+[![Python](https://img.shields.io/badge/Python-3.9%2B-blue?logo=python&logoColor=white)](#)
+[![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-Machine_Learning-F7931E?logo=scikit-learn&logoColor=white)](#)
+[![XGBoost](https://img.shields.io/badge/XGBoost-Predictive_Forecasting-17a2b8)](#)
+[![HDBSCAN](https://img.shields.io/badge/HDBSCAN-Spatial_Clustering-ffc107)](#)
+[![Folium](https://img.shields.io/badge/Folium-Geospatial_Mapping-77b065)](#)
+[![Optimization](https://img.shields.io/badge/Knapsack-Combinatorial_Optimization-9c27b0)](#)
+
+<br />
+
+### **[🌍 View Live Deployment Dashboard (TBD)](#) | [📄 Read the Full Technical Report](documentation/SOLUTION_REPORT.md)**
+
+</div>
+
 ---
 
 ## Abstract
@@ -32,36 +47,24 @@ Our solution bridges unsupervised machine learning, traffic flow theory, and com
 ### System Design & Data Flow
 
 ```mermaid
-graph TD
-    classDef input fill:#e1f5fe,stroke:#0288d1,stroke-width:2px,color:#000;
-    classDef algo fill:#f3e5f5,stroke:#7b1fa2,stroke-width:2px,color:#000;
-    classDef output fill:#e8f5e9,stroke:#388e3c,stroke-width:2px,color:#000;
+flowchart LR
+    classDef in fill:#e1f5fe,stroke:#0288d1,stroke-width:2px,color:#000
+    classDef alg fill:#f3e5f5,stroke:#7b1fa2,stroke-width:2px,color:#000
+    classDef out fill:#e8f5e9,stroke:#388e3c,stroke-width:2px,color:#000
 
-    A[Raw Violation Data]:::input --> B[Data Preprocessing]
-    B --> C[HDBSCAN Spatial Clustering]:::algo
+    A[Raw Data]:::in -->|Phase 1| B{HDBSCAN}:::alg
+    B --> C[312 Hotspots]:::out
     
-    subgraph Phase 1: Spatial Intelligence
-        C --> D[Extract 312 Discrete Enforcement Zones]
-    end
-
-    subgraph Phase 2: Traffic Physics Engine
-        D --> E[Greenshields Fundamental Diagram]:::algo
-        E --> F[LWR Shockwave Theory]:::algo
-        F --> G[Quantify Capacity Loss & Queue Length]:::output
-    end
-
-    subgraph Phase 3: Predictive Risk Forecasting
-        G --> H[Temporal Feature Engineering]
-        H --> I[XGBoost Regressor]:::algo
-        I --> J[1h, 2h, 3h Risk Forecasts]:::output
-    end
-
-    subgraph Phase 4: Resource Optimization
-        J --> K[0-1 Knapsack Optimization]:::algo
-        K --> L[Optimal Tow Truck Dispatch Schedule]:::output
-    end
+    C -->|Phase 2| D{LWR Physics}:::alg
+    D --> E[Capacity Loss %]:::out
     
-    L --> M[Interactive Command Center]:::input
+    E -->|Phase 3| F{XGBoost Regressor}:::alg
+    F --> G[Risk Forecasts]:::out
+    
+    G -->|Phase 4| H{Knapsack Optimizer}:::alg
+    H --> I[Optimal Dispatch]:::out
+    
+    I -->|Output| J[Command Center UI]:::in
 ```
 
 ### 1. Spatial Clustering (Hotspot Detection)
