@@ -13,7 +13,7 @@
 
 <br />
 
-### **[🌍 View Live Deployment Dashboard (TBD)](#) | [📄 Read the Full Technical Report](documentation/SOLUTION_REPORT.md)**
+### **[🌍 View Live Deployment Dashboard (TBD)](https://bengaluru-parking-intelligence-ibf12p7cq.vercel.app/) | [📄 Read the Full Technical Report](documentation/SOLUTION_REPORT.md)**
 
 </div>
 
