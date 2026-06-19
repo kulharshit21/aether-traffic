@@ -1,4 +1,4 @@
-# AI-Driven Parking Intelligence System
+# AetherTraffic: Physics-Informed AI for Proactive Parking Enforcement & Congestion Recovery
 ## Flipkart Gridlock 2.0 | Problem Statement 1
 
 ### The Problem

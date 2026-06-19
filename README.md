@@ -1,4 +1,4 @@
-# AetherTraffic: Physics-Informed Spatial Intelligence for Parking-Induced Congestion 
+# AetherTraffic: Physics-Informed AI for Proactive Parking Enforcement & Congestion Recovery
 
 **Flipkart Gridlock 2.0 · Problem Statement 1 · Technical Research Submission**
 
@@ -13,7 +13,7 @@
 
 <br />
 
-### **[🌍 View Live Deployment Dashboard (TBD)](https://bengaluru-parking-intelligence-ibf12p7cq.vercel.app/) | [📄 Read the Full Technical Report](documentation/SOLUTION_REPORT.md)**
+### **[🌍 View Live Deployment Dashboard](https://aether-traffic.vercel.app/) | [📄 Read the Full Technical Report](documentation/SOLUTION_REPORT.md)**
 
 </div>
 

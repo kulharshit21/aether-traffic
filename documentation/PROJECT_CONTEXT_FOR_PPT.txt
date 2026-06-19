@@ -2,7 +2,7 @@
 PROJECT CONTEXT FOR PPT GENERATION
 =====================================
 
-PROJECT: AI-Driven Spatial Intelligence for Parking-Induced Congestion
+PROJECT: AetherTraffic: Physics-Informed AI for Proactive Parking Enforcement & Congestion Recovery
 HACKATHON: Flipkart Gridlock 2.0, Problem Statement 1
 DEADLINE: June 21, 2026, 11:59 PM IST
 
