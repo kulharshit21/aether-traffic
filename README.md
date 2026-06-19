@@ -244,9 +244,12 @@ The physics-informed scoring is **model-agnostic** — swap in city-specific roa
 
 ---
 
-## 👤 Author
+## 👥 Team
 
-**Harshit Kulshreshtha** ([@kulharshit21](https://github.com/kulharshit21))
+| Role | Name |
+|:-----|:-----|
+| **Team Leader** | **Shorya** |
+| **Developer** | **Harshit Kulkarni** ([@kulharshit21](https://github.com/kulharshit21)) |
 
 Built with 🧠 for Flipkart Gridlock 2.0
 
