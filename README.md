@@ -1,4 +1,4 @@
-# AetherTraffic: Physics-Informed Spatial Intelligence for Parking-Induced Congestion
+# AetherTraffic: Physics-Informed Spatial Intelligence for Parking-Induced Congestion 
 
 **Flipkart Gridlock 2.0 · Problem Statement 1 · Technical Research Submission**
 
